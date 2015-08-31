@@ -5,9 +5,9 @@ import java.util.*;
 /**
  * @author Gabriel Francisco - gabfssilva@gmail.com
  */
-public class GetMostCommonChar {
+public class CharUtils {
 
-    public static char getMostCommonChar(String string) {
+    public static char getLessCommonChar(String string) {
         Stream stream = new StreamImpl(string.toCharArray());
         Map<Character, Integer> chars = new LinkedHashMap<Character, Integer>();
 
